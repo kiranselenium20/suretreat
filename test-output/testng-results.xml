@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="0" failed="2" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-09-20T09:10:10 IST" name="Sure Pool and Spa Test Suite" finished-at="2023-09-20T09:11:09 IST" duration-ms="59060">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sure.runner.TestRunner@1807f5a7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-09-20T09:10:10 IST" name="Pool Test" finished-at="2023-09-20T09:11:09 IST" duration-ms="59060">
+      <class name="com.sure.runner.TestRunner">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.sure.runner.TestRunner@1807f5a7]" started-at="2023-09-20T09:10:10 IST" name="setUpClass" finished-at="2023-09-20T09:10:11 IST" duration-ms="361" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@1f75a668]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sure.runner.TestRunner@1807f5a7]" started-at="2023-09-20T09:10:11 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-20T09:10:53 IST" duration-ms="42782" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["01_Successful login with valid credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pool Manager test scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wait For Condition "Clickable" isn't supported.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wait For Condition "Clickable" isn't supported.
+at com.sure.stepDefs.BaseTest.waitForCondition(BaseTest.java:107)
+at com.sure.stepDefs.BaseTest.clickButton(BaseTest.java:23)
+at com.sure.stepDefs.CommonStepDef.i_Logout_App(CommonStepDef.java:24)
+at ✽.I logout of the application(file:///C:/Users/Admin/eclipse-workspace/Pool/src/test/resources/features/PoolManager.feature:28)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.sure.runner.TestRunner@1807f5a7]" started-at="2023-09-20T09:10:53 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-09-20T09:11:05 IST" duration-ms="11536" status="FAIL">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["02_Successful login with valid another credentials"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Pool Manager test scenarios"]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[wait For Condition "Clickable" isn't supported.]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: wait For Condition "Clickable" isn't supported.
+at com.sure.stepDefs.BaseTest.waitForCondition(BaseTest.java:107)
+at com.sure.stepDefs.BaseTest.clickButton(BaseTest.java:23)
+at com.sure.stepDefs.QuickTestStepDef.i_click_On_Button(QuickTestStepDef.java:48)
+at ✽.I click on " Log In " button(file:///C:/Users/Admin/eclipse-workspace/Pool/src/test/resources/features/PoolManager.feature:32)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.sure.runner.TestRunner@1807f5a7]" started-at="2023-09-20T09:11:05 IST" name="tearDownClass" finished-at="2023-09-20T09:11:09 IST" duration-ms="4351" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.sure.runner.TestRunner -->
+    </test> <!-- Pool Test -->
+  </suite> <!-- Sure Pool and Spa Test Suite -->
+</testng-results>

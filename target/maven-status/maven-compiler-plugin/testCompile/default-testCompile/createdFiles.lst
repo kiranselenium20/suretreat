@@ -1,0 +1,7 @@
+com\sure\stepDefs\BaseTest.class
+com\sure\stepDefs\CommonStepDef.class
+com\sure\stepDefs\QuickTestStepDef.class
+com\sure\utils\TestContext.class
+com\sure\utils\DriverManager.class
+com\sure\stepDefs\Hooks.class
+com\sure\runner\TestRunner.class

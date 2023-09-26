@@ -1,0 +1,10 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 209.7 s <<< FAILURE! - in TestSuite
+com.sure.runner.TestRunner.runScenario["02_Successful login with valid another credentials", "Pool Manager test scenarios"](2)  Time elapsed: 28.931 s  <<< FAILURE!
+java.lang.NullPointerException: Cannot invoke "String.contains(java.lang.CharSequence)" because the return value of "java.util.Map.get(Object)" is null
+
+com.sure.runner.TestRunner.runScenario["03_Successful login with valid another credentials", "Pool Manager test scenarios"](3)  Time elapsed: 134.328 s  <<< FAILURE!
+java.lang.AssertionError: Data Matched: lists don't have the same size expected [8] but found [4]
+
